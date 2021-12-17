@@ -50,7 +50,7 @@ export const DownArrow = styled.img`
     overflow-x: hidden;
     animation: animateDown infinite 1.5s;
     @media (max-width: 768px) {
-        margin-right: 16rem;
+        margin-left: center;
     }
 `
 export const Buttons = styled.div`
