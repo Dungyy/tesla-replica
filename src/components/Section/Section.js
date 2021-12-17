@@ -8,7 +8,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
         <Wrap bgImage={backgroundImg}>
             <Fade bottom>
             <ItemText>
-                <h1>{ title }</h1>
+                <h1 style={{padding: "1rem"}}>{ title }</h1>
                 <p>{ description }</p>
             </ItemText>
             </Fade>
@@ -25,7 +25,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
                 }
             </ButtonGroup>
             </Fade>
-            <DownArrow src="/images/down-arrow.svg" />
+            <DownArrow src="/images/down-arrow.svg" style={{marginLeft: "15rem"}}/>
             </Buttons>
             
         </Wrap>
