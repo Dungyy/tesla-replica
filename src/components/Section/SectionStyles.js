@@ -49,7 +49,9 @@ export const DownArrow = styled.img`
     height: 40px;
     overflow-x: hidden;
     animation: animateDown infinite 1.5s;
-
+    @media (max-width: 768px) {
+        marginLeft: 0rem;
+    }
 `
 export const Buttons = styled.div`
 
