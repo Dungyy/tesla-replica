@@ -26,7 +26,13 @@
   color: rgb(112, 76, 182);
 }
 
-@keyframes App-logo-float {
+
+a {
+  text-decoration: none;
+}
+
+
+@keyframes animateDown {
   0% {
     transform: translateY(0);
   }

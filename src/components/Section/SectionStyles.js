@@ -20,6 +20,7 @@ export const ItemText = styled.div`
 export const ButtonGroup = styled.div`
     display: flex;
     margin-bottom: 30px;
+    z-index: -1;
     @media (max-width: 768px) {
         flex-direction: column;
     }
