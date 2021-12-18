@@ -47,12 +47,10 @@ export const RightButton = styled(LeftButton)`
 `
 export const DownArrow = styled.img`
     height: 40px;
-    overflow-x: hidden;
     animation: animateDown infinite 1.5s;
-    @media (max-width: 768px) {
-        flex-direction: center;
-    }
+
 `
 export const Buttons = styled.div`
-
+    display: flex;
+    flex-direction: column;
 `
