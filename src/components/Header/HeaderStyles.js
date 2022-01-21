@@ -48,6 +48,7 @@ cursor: pointer;
 `
 
 export const BurgerNav = styled.div`
+text-Decoration: none;
 position: fixed;
 top: 0;
 bottom: 0;
@@ -67,7 +68,7 @@ li {
     border-bottom: 1px solid rgba(0, 0, 0, 2);
     
     a {
-        font-weight: 600;
+        font-weight: 500;
     }
 }
 

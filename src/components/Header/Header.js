@@ -7,17 +7,19 @@ function Header() {
     return (
         <Container>
             <>
-                <img src="./images/logo.svg" alt="" />
+                <img style={{width: "100px", marginLeft: "2rem"}} src="./images/logo.svg" alt="" />
             </>
-            <Menu>
-                <a href="a">Model S</a>
-                <a href="a">Model 3</a>
-                <a href="a">Model X</a>
-                <a href="a">Model Y</a>
+            <Menu style={{fontWeight: "200"}}>
+                <a href="https://www.tesla.com/models">Model S</a>
+                <a href="https://www.tesla.com/model3">Model 3</a>
+                <a href="https://www.tesla.com/modelx">Model X</a>
+                <a href="https://www.tesla.com/modely">Model Y</a>
+                <a href="https://www.tesla.com/solarroof">Solar Roof</a>
+                <a href="https://www.tesla.com/solarpanels">Solar Panels</a>
             </Menu>
             <RightMenu>
-                <a href="a">Shop</a>
-                <a href="a">Tesla Account</a>
+                <a href="https://shop.tesla.com/">Shop</a>
+                <a href="https://auth.tesla.com/oauth2/v1/authorize?redirect_uri=https://www.tesla.com/teslaaccount/owner-xp/auth/callback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US">Tesla Account</a>
                 <CustomMenu onClick={() => setBurgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>

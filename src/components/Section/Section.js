@@ -15,7 +15,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
             <Buttons>
             <Fade bottom>
             <ButtonGroup>
-                <LeftButton>
+                <LeftButton >
                     {leftBtnText}
                 </LeftButton>
                 { rightBtnText && 
