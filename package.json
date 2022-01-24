@@ -17,7 +17,7 @@
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3"
   },
-    "scripts": {
+  "scripts": {
     "start": "react-scripts start -p $PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
