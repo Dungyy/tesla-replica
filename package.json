@@ -15,10 +15,11 @@
     "react-redux": "^7.2.6",
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.0",
+    "serve-build": "^0.1.0",
     "styled-components": "^5.3.3"
   },
   "scripts": {
-    "start": "react-scripts start -p $PORT",
+    "start": "serve-build -p $PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
