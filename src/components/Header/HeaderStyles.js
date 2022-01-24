@@ -26,7 +26,8 @@ export const Menu = styled.div`
     padding: 0 10px;
     flex-wrap: nowrap;
   }
-  @media (max-width: 768px) {
+  a {
+    @media (max-width: 1200px) {
     display: none;
   }
 `;
@@ -41,6 +42,10 @@ export const RightMenu = styled.div`
     display: inline-block;
     padding: 1rem;
   }
+  a {
+    @media (max-width: 1200px) {
+      display: none;
+    }
 `;
 
 export const BurgerNav = styled.div`
