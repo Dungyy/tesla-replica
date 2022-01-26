@@ -15,7 +15,7 @@ const Home = () => {
           leftBtnText={sectionInfo.leftBtnText}
           rightBtnText={sectionInfo.rightBtnText}
         />
-      ))}
+      ))} 
     </Container>
   );
 };

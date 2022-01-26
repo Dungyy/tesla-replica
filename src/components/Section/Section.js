@@ -21,7 +21,7 @@ const Section = ({
     <Wrap bgImage={backgroundImg}>
       <Fade bottom>
         <ItemText>
-          <h1 style={{ padding: "1rem" }}>{title}</h1>
+          <h1 style={{ padding: "1rem", fontSize: "2.5rem"}}>{title}</h1>
           <p>{description}</p>
         </ItemText>
       </Fade>

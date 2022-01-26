@@ -15,7 +15,7 @@ const Header = () => {
     <Container>
       <>
         <img
-          style={{ width: "100px", marginLeft: "2rem" }}
+          style={{ width: "113px", marginLeft: "2rem", height: "17px"}}
           src="./images/logo.svg"
           alt=""
         />
@@ -39,48 +39,53 @@ const Header = () => {
         <CustomWrapper>
           <CustomClose onClick={() => setBurgerStatus(false)} />
         </CustomWrapper>
-        <li>
-          <a href="a">Existing Inventory</a>
-        </li>
-        <li>
-          <a href="a">Used Inventory</a>
-        </li>
-        <li>
-          <a href="a">Trade-in</a>
-        </li>
-        <li>
-          <a href="a">Cybertruck</a>
-        </li>
-        <li>
-          <a href="a">Roadaster</a>
-        </li>
-        <li>
-          <a href="a">Semi</a>
-        </li>
-        <li>
-          <a href="a">Charging</a>
-        </li>
-        <li>
-          <a href="a">Powerwell</a>
-        </li>
-        <li>
-          <a href="a">Commercial Energy</a>
-        </li>
-        <li>
-          <a href="a">Powerwell</a>
-        </li>
-        <li>
-          <a href="a">Utilities</a>
-        </li>
-        <li>
-          <a href="a">Find Us</a>
-        </li>
-        <li>
-          <a href="a">Support</a>
-        </li>
-        <li>
-          <a href="a">Investor Relations</a>
-        </li>
+        <div style={{textDecoration: "none"}}>
+          <li>
+            <a href="https://www.tesla.com/inventory/new/m3">Existing Inventory</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/inventory/used/m3">Used Inventory</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/tradein">Trade-in</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/drive">Test Drive</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/cybertruck">Cybertruck</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/roadster">Roadaster</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/semi">Semi</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/charging">Charging</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/powerwall">Powerwell</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/commercial">Commercial Energy</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/powerwall">Powerwell</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/utilities">Utilities</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/findus?v=2&bounds=51.39232576966143%2C-65.51660275%2C26.358366992243717%2C-133.01660275&zoom=5&filters=store%2Cservice%2Csupercharger%2Cdestination%20charger%2Cbodyshop%2Cparty">Find Us</a>
+          </li>
+          <li>
+            <a href="https://www.tesla.com/support">Support</a>
+          </li>
+          <li>
+            <a href="https://ir.tesla.com/#tab-quarterly-disclosure">Investor Relations</a>
+          </li>
+        </div>
       </BurgerNav>
     </Container>
   );

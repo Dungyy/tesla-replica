@@ -1,9 +1,10 @@
 const Data = [
+  
   {
     key: "1",
-    title: "Model S",
+    title: "Model 3",
     description: "Order Online for Touchless Delivery",
-    backgroundImg: "model-s.jpg",
+    backgroundImg: "model-3.jpg",
     leftBtnText: "Custom Order",
     rightBtnText: "Existing inventory",
   },
@@ -17,9 +18,9 @@ const Data = [
   },
   {
     key: "3",
-    title: "Model 3",
+    title: "Model S",
     description: "Order Online for Touchless Delivery",
-    backgroundImg: "model-3.jpg",
+    backgroundImg: "model-s.jpg",
     leftBtnText: "Custom Order",
     rightBtnText: "Existing inventory",
   },
@@ -33,16 +34,16 @@ const Data = [
   },
   {
     key: "5",
-    title: "Lowest Cost Solar Panels in America",
-    description: "Money-back guarantee",
+    title: "Solar Panels",
+    description: "Lowest Cost Solar Panels in America",
     backgroundImg: "solar-panel.jpg",
     leftBtnText: "Order Now",
     rightBtnText: "Learn More",
   },
   {
     key: "6",
-    title: "Solar for New Roofs",
-    description: "Solar Roof Costs Less Than a New Roof Plus Solar Panels",
+    title: "Solar Roof",
+    description: "Produce Clean Energy From Your Roof",
     backgroundImg: "solar-roof.jpg",
     leftBtnText: "Order Now",
     rightBtnText: "Learn More",

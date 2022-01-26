@@ -19,6 +19,8 @@ export const Menu = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  font-size: 13px;
+  text-align: center;
 
   a {
     font-weight: 600;
@@ -29,6 +31,9 @@ export const Menu = styled.div`
   a {
     @media (max-width: 1200px) {
     display: none;
+  }
+  a:hover {
+    background-color: #fff;
   }
 `;
 
@@ -41,6 +46,7 @@ export const RightMenu = styled.div`
     cursor: pointer;
     display: inline-block;
     padding: 1rem;
+    font-size: 13px;
   }
   a {
     @media (max-width: 1200px) {
