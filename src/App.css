@@ -1,4 +1,13 @@
+.img {
+  margin-right: 2rem;
+}
 
+@media (max-width: 600px) {
+  .img {
+    width: 111px;
+    height: 17px;
+  }
+}
 
 .App-logo {
   height: 40vmin;

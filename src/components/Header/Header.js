@@ -13,13 +13,13 @@ const Header = () => {
 
   return (
     <Container>
-      <>
+      <div className="img">
         <img
-          style={{ width: "113px", marginLeft: "2rem", height: "17px"}}
+          style={{ width: "111px", height: "17px"}}
           src="./images/logo.svg"
           alt=""
         />
-      </>
+      </div>
       <Menu>
         <a href="https://www.tesla.com/models">Model S</a>
         <a href="https://www.tesla.com/model3">Model 3</a>
