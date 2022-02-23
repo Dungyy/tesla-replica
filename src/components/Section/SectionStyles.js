@@ -39,6 +39,7 @@ export const LeftButton = styled.div`
     font-size: 12px;
     cursor: pointer;
     margin: 8px;
+    src: url(https://www.tesla.com/model3/design#overview)
 `
 export const RightButton = styled(LeftButton)`
     background-color: white;
